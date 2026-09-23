@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A luxury automotive landing page inspired by the elegance and performance of premium modern vehicles."
+    />
+    <title>Velora Motors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="#top" class="brand" aria-label="Velora Motors home">
+            <span class="brand-mark">V</span>
+            <span class="brand-text">VELORA</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-panel" id="nav-menu">
+            <ul class="nav-links">
+              <li><a href="#models">Models</a></li>
+              <li><a href="#technology">Technology</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#ownership">Ownership</a></li>
+            </ul>
+            <a href="#contact" class="button button-ghost">Book a Test Drive</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">The Art of Electric Performance</p>
+              <h1>Luxury crafted for every mile ahead.</h1>
+              <p class="lede">
+                Discover a new era of premium mobility where performance, intelligence,
+                and design converge into one unmistakable driving experience.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#models" class="button button-primary">Explore Vehicles</a>
+                <a href="#technology" class="button button-secondary">Discover Innovation</a>
+              </div>
+
+              <ul class="hero-stats" aria-label="Company highlights">
+                <li>
+                  <strong>0-100</strong>
+                  <span>Under 3.5s</span>
+                </li>
+                <li>
+                  <strong>750 km</strong>
+                  <span>Range estimate</span>
+                </li>
+                <li>
+                  <strong>4.9/5</strong>
+                  <span>Driver satisfaction</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Luxury car showcase image">
+              <div class="image-card image-card-main">
+                <img
+                  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                  alt="Luxury silver performance car parked under dramatic evening lights"
+                />
+              </div>
+              <div class="floating-badge">
+                <span class="badge-label">New arrival</span>
+                <strong>Vanta GT</strong>
+                <small>Electric grand tourer</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="featured" id="models">
+          <div class="container section-heading">
+            <p class="eyebrow">Featured models</p>
+            <h2>Performance, precision, and presence.</h2>
+          </div>
+
+          <div class="container card-grid">
+            <article class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80"
+                  alt="Sports coupe parked on a sleek urban street"
+                />
+              </div>
+              <div class="vehicle-body">
+                <div class="card-topline">
+                  <span class="pill">Grand tourer</span>
+                  <span class="price">From $92,500</span>
+                </div>
+                <h3>Vanta S</h3>
+                <p>Electrified power and handcrafted comfort for the city and the open road.</p>
+                <ul>
+                  <li>680 hp</li>
+                  <li>Dual-motor AWD</li>
+                  <li>Fast charging</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=900&q=80"
+                  alt="Luxury SUV in a modern city landscape"
+                />
+              </div>
+              <div class="vehicle-body">
+                <div class="card-topline">
+                  <span class="pill">Luxury SUV</span>
+                  <span class="price">From $84,900</span>
+                </div>
+                <h3>Arden X</h3>
+                <p>Intelligent space and commanding presence designed for modern families.</p>
+                <ul>
+                  <li>7-seat layout</li>
+                  <li>AI route planning</li>
+                  <li>Dynamic suspension</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80"
+                  alt="Luxury sedan moving through a city at dusk"
+                />
+              </div>
+              <div class="vehicle-body">
+                <div class="card-topline">
+                  <span class="pill">Executive sedan</span>
+                  <span class="price">From $76,200</span>
+                </div>
+                <h3>Nova E</h3>
+                <p>Executive comfort meets precision engineering for every destination.</p>
+                <ul>
+                  <li>Enhanced autopilot</li>
+                  <li>Panoramic cabin</li>
+                  <li>Ultra quiet ride</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="technology" id="technology">
+          <div class="container tech-layout">
+            <div class="tech-copy">
+              <p class="eyebrow">Intelligent innovation</p>
+              <h2>Designed around how you move, connect, and feel.</h2>
+              <p>
+                Every detail is engineered to balance breathtaking performance with a calmer,
+                more intuitive driving experience that adapts to your day.
+              </p>
+              <div class="feature-list">
+                <div>
+                  <span class="feature-number">01</span>
+                  <div>
+                    <h3>Adaptive intelligence</h3>
+                    <p>Predictive assistance delivers a response tuned to your route, mood, and style.</p>
+                  </div>
+                </div>
+                <div>
+                  <span class="feature-number">02</span>
+                  <div>
+                    <h3>Driver-centric controls</h3>
+                    <p>Minimal, tactile interfaces keep attention where it belongs—on the road.</p>
+                  </div>
+                </div>
+                <div>
+                  <span class="feature-number">03</span>
+                  <div>
+                    <h3>Connected experience</h3>
+                    <p>Seamless access to charging, climate, navigation, and entertainment across devices.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tech-visual" aria-label="Technology and dashboard interface detail">
+              <img
+                src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80"
+                alt="Dashboard interface glowing inside a premium electric vehicle"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="experience" id="experience">
+          <div class="container split-panel">
+            <div class="split-copy">
+              <p class="eyebrow">Performance narrative</p>
+              <h2>Unrivaled dynamics, rooted in confidence.</h2>
+              <p>
+                Our engineering philosophy blends acceleration, balance, and control to create a
+                vehicle that feels both dramatic and composed.
+              </p>
+              <a href="#contact" class="text-link">Schedule your consultation</a>
+            </div>
+
+            <div class="stats-panel" aria-label="Performance metrics">
+              <div>
+                <strong>4.2s</strong>
+                <span>0–100 km/h</span>
+              </div>
+              <div>
+                <strong>512 hp</strong>
+                <span>Peak system output</span>
+              </div>
+              <div>
+                <strong>23%</strong>
+                <span>Efficiency improvement</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ownership" id="ownership">
+          <div class="container section-heading">
+            <p class="eyebrow">Ownership</p>
+            <h2>Support that feels premium at every stage.</h2>
+          </div>
+
+          <div class="container ownership-grid">
+            <article class="service-card">
+              <span class="service-icon">✦</span>
+              <h3>Personal concierge</h3>
+              <p>Dedicated advisors to guide every step from configuration to delivery.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon">⚡</span>
+              <h3>Charging network</h3>
+              <p>Access high-speed charging partnerships and seamless home installation support.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon">◎</span>
+              <h3>Service care</h3>
+              <p>Proactive maintenance plans with remote diagnostics and expert care.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <div class="container footer-grid">
+          <div>
+            <a href="#top" class="brand footer-brand" aria-label="Velora Motors home">
+              <span class="brand-mark">V</span>
+              <span class="brand-text">VELORA</span>
+            </a>
+            <p>Elevated mobility for the way the world moves next.</p>
+          </div>
+
+          <div>
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#models">Models</a></li>
+              <li><a href="#technology">Technology</a></li>
+              <li><a href="#experience">Experience</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Visit</h3>
+            <ul>
+              <li><a href="mailto:hello@velora.example">hello@velora.example</a></li>
+              <li><a href="tel:+18005551234">+1 (800) 555-1234</a></li>
+              <li>12 Regent Avenue, Beverly Hills</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container footer-bar">
+          <span>© <span id="year"></span> Velora Motors</span>
+          <a href="#top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
